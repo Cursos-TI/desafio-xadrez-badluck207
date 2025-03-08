@@ -26,11 +26,12 @@ int main()
     // Movimentação da Rainha
     do
     {
-        printf("\nRainha Movimentano para: ");
+        printf("\nRainha Movimentando para: ");
         printf("Esquerda - Direita");
         numR++;
     } while (numR < 8);
 
+    //Sistema de saida do programa
     printf("\n\nPressione 'Enter' para sair do jogo...\n");
     getchar();
 
